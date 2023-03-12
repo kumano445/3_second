@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.content{ 
+.content{   
   width: 400px;
   }
   .red-box{
@@ -12,38 +12,53 @@
     display: block;
     clear: both;
   }
+  .middle{
+    float: left;
+  }
   .green-box{
+    /* position: relative; */
     width: 150px;
     height: 250px;
     background: #00ff51;
     float: left;
-    position: relative;
-    z-index: 50;
+    /* z-index: 10; */
+  }
+  .middle_right_box{
+
+  }
+  .middle_right_left_box{
+    overflow: hidden;
   }
   .pink-box{
     height: 50px;
     background: #cc00db;
-    position: relative;
+    width: 150px;
+    float: left;
+    /* position: relative; */
+    /* z-index: 10; */
   }
-  .lightbrown-box{
-    position: relative;
-    width: 100px;
-    background: #ff9e6b;
-    float: right;
-    height: 150px;
-    z-index: 50;
-  }
-  
   .lightblue-box{
+    /* position: relative; */
     height: 100px;
     background: #0093b7;
+    width: 150px;
+    float: left;
+    /* z-index: 10; */
+  }
+  
+  .lightbrown-box{
+    float: left;
+    width: 100px;
+    background: #ff9e6b;
+    height: 150px;
+    /* position: absolute; */
   }
   .brown-box{
     height: 100px;
     background: #8c2727;
   }
-  
   .yellow-box{
     height: 100px;
     background: #fff700;
+    width: 400px;
   }
