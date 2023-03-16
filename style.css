@@ -12,9 +12,6 @@
     display: block;
     clear: both;
   }
-  .middle{
-    float: left;
-  }
   .green-box{
     /* position: relative; */
     width: 150px;
@@ -27,7 +24,7 @@
     float: left;
   }
   .middle_right_left_box{
-    overflow: hidden;
+    float: left;
   }
   .pink-box{
     height: 50px;
@@ -45,7 +42,6 @@
     /* float: left; */
     /* z-index: 10; */
   }
-  
   .lightbrown-box{
     float: left;
     width: 100px;
@@ -55,6 +51,7 @@
   }
   .brown-box{
     height: 100px;
+    width: 250px;
     background: #8c2727;
   }
   .yellow-box{
